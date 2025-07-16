@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #003366;
+}
+
+.navbar {
+  background: linear-gradient(to right, #004080, white);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 60px;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #004080;
+  transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.join-section {
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+}
+
+.join-section .container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.join-form label {
+  display: block;
+  margin-top: 15px;
+}
+
+.join-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.join-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer .social-icons img {
+  width: 24px;
+  margin: 0 10px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 50px;
+}
